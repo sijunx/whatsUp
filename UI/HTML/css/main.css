@@ -1,0 +1,690 @@
+.record_img {
+    width: 110px;
+    height: 70px;
+}
+
+.add_voice {
+    background: #ff9100;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.text_resize {
+    resize: none;
+}
+
+.v_center {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.actionarea .attabg {
+    width: 100%;
+    overflow: hidden;
+    background: #ddd;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.attabg ul li {
+    float: left;
+    text-align: center;
+    width: 49.5%;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.attabbtnLfoucse {
+    background-color: #fff;
+    margin: 2px 0 0 2px;
+    border-radius: 5px 0 0 5px;
+}
+
+.attabbtnRfoucse {
+    background-color: #fff;
+    margin: 2px 0 0 2px;
+    border-radius: 0 5px 5px 0;
+}
+
+.delegate_search {
+    background: #fff;
+    /*position: fixed;*/
+    top: 44px;
+    height: 30px;
+    width: 100%;
+}
+
+.delegate_list {
+    background: #FFFFFF;
+}
+
+.m80 {
+    margin-top: 80px;
+}
+
+.delegate_list li {
+
+    line-height: 20px;
+    font-size: 15px;
+    border-top: 1px solid #ddd;
+    padding: 10px 1.5rem;
+}
+
+.delegate_list li p {
+    font-size: 15px;
+}
+
+.creat_time {
+    color: #9c9c9c;
+    font-size: 12px;
+}
+
+.flux {
+    width: 100%;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.h38 {
+    height: 38px;
+}
+.h20 {
+    height: 20px;
+}
+.h25 {
+    height: 25px;
+}
+.line_h36 {
+    line-height: 36px;
+}
+.line_h20 {
+    line-height: 20px;
+}
+.line_h30 {
+    line-height: 30px;
+}
+.h58 {
+    height: 58px;
+}
+
+.line36 {
+    line-height: 36px;
+}
+
+.line20 {
+    margin-top: 6px;
+    line-height: 20px;
+}
+
+.flux_wrap {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 50px;
+
+}
+
+.flex-item_wrap {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.flex-item {
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    /*line-height: 36px;*/
+    box-sizing: border-box;
+}
+
+.flex-img {
+    border: 1px solid #e5e5e5;
+    width: 23%;
+    height: 50px;
+    margin: 15px 1% 0 1%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.item_focus {
+    color: #ff9100;
+    border-bottom: 3px solid #ff9100;
+}
+
+.item_unFocus {
+    border-bottom: 1px solid #dddddd;
+}
+
+.item1 {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.item2 {
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.nav_kanban {
+    background: #FFFFFF;
+}
+
+.kanbanHeight {
+    height: 36px;
+}
+
+.nav_kanban_fix {
+    width: 100%;
+    height: 36px;
+    position: fixed !important;
+    left: 0;
+    z-index: 100;
+    top: 0;
+    background: #FFFFFF;
+}
+
+.home_kanban {
+    background: #FFFFFF;
+}
+
+.fixTop {
+    top: 37px !important;
+}
+
+.fixTop .itemgroup .listItem .right i {
+    display: inline-block;
+    width: 10px;
+    height: 1px;
+    background: #ddd;
+    line-height: 38px;
+    margin: 0 5px;
+}
+
+.fixTop .itemgroup .listItem input {
+    border-radius: 5px;
+    width: 100px;
+    line-height: 28px;
+    /*outline: none;*/
+    /*border: 0;*/
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.listItem {
+    line-height: 38px;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.home_time {
+    background: #FF9100;
+    height: 80px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.home_time .time {
+    font-size: 30px;
+
+}
+
+.home_time p {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.homesubtitle span {
+    padding: 0 5px;
+}
+
+.shortcust_bg {
+    width: 100%;
+    height: 100%;
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 100;
+}
+
+.shortgroup {
+    position: absolute;
+    overflow: hidden;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.shortlist {
+    overflow: hidden;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+}
+
+.shortlist li {
+    float: left;
+    width: 33%;
+    height: 58px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.shortlist li div {
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.shortlist li div p {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.white {
+    color: #FFFFFF !important;
+}
+
+.cutsIcon {
+    font-size: 20px;
+    padding-top: 5px;
+    display: block;
+    font-style: normal;
+
+}
+
+.backlogIcon {
+    font-size: 12px !important;
+    font-style: normal;
+    display: block;
+}
+
+.custs_bg_green {
+    background: #8cd843;
+}
+
+.custs_bg_purple {
+    background: #8a90f9;
+}
+
+.custs_bg_yellow {
+    background: #fecf2f;
+}
+
+.custs_bg_orange {
+    background: #ff9100
+}
+
+.custs_bg_bule {
+    background: #4EC7EE
+}
+
+.custs_bg_gre {
+    background: #00D3C0
+}
+
+.custs_bg_rosered {
+    background: #FF80C2
+}
+
+.notice_red {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 63, 19, .6);
+}
+
+.notice_red p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.backList {
+
+}
+
+.backList li {
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px #e5e5e5 solid;
+    padding-right: 15px;
+}
+
+.backList li:last-child {
+    border-bottom: none;
+}
+
+.backList li i {
+    font-style: normal;
+}
+
+.log_name {
+    margin: 5px 0 0 5px;
+}
+
+.log_bg {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.crmShow {
+    display: block;
+}
+
+.crmHide {
+    display: none;
+}
+
+.crmShortHide {
+    opacity: 0;
+}
+
+.crmShortShow {
+    opacity: 1;
+    transition: opacity 5000s ease-in;
+}
+
+.crmShortBottom {
+    bottom: -100%;
+}
+
+.fastF12 {
+    font-size: 12px;
+}
+
+.add_delegate input, .add_delegate textarea {
+    border: none;
+    outline: none;
+}
+
+.sortbar li {
+    float: left;
+}
+
+.photoStyle {
+    /*width: 10%;*/
+    /*height: 40%*/
+    width: 70px;
+    height: 50px;
+}
+
+.add_photo_pading {
+    padding: 0 15px 15px 15px;
+}
+
+.padd_top15 {
+    margin-top: 15px;
+}
+
+.Precord {
+    position: absolute;
+    overflow: hidden;
+    background-color: #fff;
+    top: 50%;
+    height: 150px;
+    margin-top: -75px;
+    width: 100%;
+    /*margin-left: 10%;*/
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.Precord_bot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.Precord_bot .flex-item:first-child {
+    background: #FF9100;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+.Precord_bot .flex-item:last-child {
+    color: #FF9100;
+    border: 1px solid #FF9100;
+    line-height: 38px;
+}
+
+.Pcontent {
+    margin-top: 30px;
+}
+
+.upload_positon {
+    position: relative;
+    height: 50px;
+}
+
+.upload_del {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 14px;
+    height: 14px;
+}
+
+.upload_del img {
+    width: 100%;
+    height: 100%;
+}
+
+.back_list li {
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 18px;
+    padding: 10px 15px;
+    /*margin: 0 15px;*/
+    text-align: left;
+}
+
+.back_list li:last-child {
+    border-bottom: none;
+}
+
+.back_list li div:first-child {
+    float: left;
+    width: 10%;
+}
+
+.back_list li div:last-child {
+    width: 88%;
+    float: left;
+    margin-left: 2%;
+}
+
+.back_list li div:first-child img {
+    width: 95%;
+    display: inline-block;
+    height: 30px;
+    margin-right: 5%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.back_list li div p {
+    font-size: 11px;
+    color: #888;
+}
+
+.unBacklog {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+}
+
+.account_picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.actionListHeight {
+    height: 40px;
+}
+
+.imguploadIcon {
+    line-height: 48px;
+}
+
+.audioPlay {
+    background: #ff9100;
+    position: relative;
+    color: #fff;
+}
+
+.audioPlay label {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.audioItem {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 90%;
+    opacity: 0;
+}
+
+.audioPosition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.audioIconfont {
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-family: "iconfont" !important;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    /*animation: myfirst 3s linear 0s infinite alternate;*/
+    /* Safari 与 Chrome: */
+    /*-webkit-animation: myfirst 3s linear 0s infinite alternate;*/
+
+}
+
+/*@keyframes myfirst {*/
+    /*from {*/
+        /*font-size: 16px;*/
+    /*}*/
+    /*to {*/
+        /*font-size: 24px;*/
+    /*}*/
+/*}*/
+
+.voiceiconFont {
+    font-size: 16px;
+}
+
+.voiceLength {
+    position: absolute;
+    top: 29px;
+    font-size: 9px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.inputBorder {
+    width: 100px;
+    border: 1px solid #f00;
+
+}
+
+.fast_nav_height {
+    height: 20px;
+}
+
+.searchHeight {
+    height: 44px;
+}
+
+.customerInfoNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+}
+
+.addSupplier {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #9c9c9c;
+    margin-right: 30px;
+    font-size: 14px;
+}
+.jonUser{
+    width: 80%;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.fastico{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    display: inline-block;
+}
