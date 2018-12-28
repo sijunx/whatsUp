@@ -18,7 +18,7 @@ require('../../../UI/HTML/css/css.css');
 require('../../../UI/HTML/css/weui.min.css');
 
 const appNode = document.getElementById('app');
-window.CaiTuo = {
+window.mySpider = {
     Http: HttpUtil,
     Strings: Strings,
     Images: Images,
