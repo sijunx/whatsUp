@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {hashHistory, IndexRoute, Route, Router} from 'react-router';
 import HttpUtil from './Helper/HttpUtil';
-import Strings from './Helper/Strings';
-import Images from './Helper/Images';
+// import Strings from './Helper/Strings';
+// import Images from './Helper/Images';
 import StorageUtil from './Helper/StorageUtil';
 import UrlList from './Helper/UrlList';
 import DateTimeTransForm from './Helper/DateTimeTransform';
@@ -20,8 +20,8 @@ require('../../../UI/HTML/css/weui.min.css');
 const appNode = document.getElementById('app');
 window.mySpider = {
     Http: HttpUtil,
-    Strings: Strings,
-    Images: Images,
+    // Strings: Strings,
+    // Images: Images,
     StorageUtil: StorageUtil,
     UrlList : UrlList,
     DateTimeTransForm:DateTimeTransForm,

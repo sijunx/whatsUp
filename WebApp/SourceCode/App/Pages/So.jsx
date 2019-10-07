@@ -20,6 +20,7 @@ const So = React.createClass({
         }
     },
 
+
     onTouchEnd(){
         console.log("onTouchEnd");
     },
@@ -189,6 +190,9 @@ const So = React.createClass({
 
         return (
             <div>
+
+
+
 
                 <div className="fast_nav_height">
                     <SearchBar searchCallback={this.getListFuzzy} nullValueCallback={this.nullValueCallback}/>

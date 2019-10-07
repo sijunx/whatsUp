@@ -23,6 +23,7 @@ const config = {
 
 gulp.task('connect', function () {
     connect.server({
+        host: '0.0.0.0',
         root: ['dist'],
         port: config.port,
         livereload: {
