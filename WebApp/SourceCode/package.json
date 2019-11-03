@@ -17,7 +17,7 @@
     "react-highcharts": "^10.0.0",
     "react-route": "^1.0.3",
     "react-router": "^2.7.0",
-    "superagent": "^2.2.0",
+    "superagent": "^5.0.2",
     "watchjs": "0.0.0"
   },
   "devDependencies": {
