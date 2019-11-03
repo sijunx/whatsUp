@@ -11,6 +11,7 @@ import Preloader from './Helper/Preloader';
 import SetTimeOut from './Mixin/SetTimeOut';
 import TranslationText from './Helper/TranslationText';
 import So from './Pages/So.jsx';
+import UpLoad from './Pages/UpLoad.jsx';
 
 //duration
 require('../../../UI/HTML/css/main.css');
@@ -86,8 +87,9 @@ const App = React.createClass({
 const routes = (
     <Router history={hashHistory}>
         <Route path='/' component={App}>
-            <IndexRoute component={So}/>
+            <IndexRoute component={UpLoad}/>
             <Route path="so" component={So}/>
+            <Route path="upLoad" component={UpLoad}/>
         </Route>
     </Router>
 );

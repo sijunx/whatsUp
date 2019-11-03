@@ -1,7 +1,7 @@
 import request from 'superagent';
 
-var ROOT_URL = 'http://134.175.107.11:8091';
-// var ROOT_URL = 'http://127.0.0.1:8091';
+// var ROOT_URL = 'http://134.175.107.11:8091';
+var ROOT_URL = 'http://127.0.0.1:8080';
 
 function setHeader(head) {
     let headers = {};
